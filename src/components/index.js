@@ -1,0 +1,7 @@
+export { default as Header } from "./header/Header"
+export { default as Aboutus } from "./aboutus/Aboutus"
+export { default as Features } from "./features/Features"
+export { default as Footer } from "./footer/Footer"
+export { default as Sayings } from "./sayings/Sayings"
+export { default as Service } from "./service/Service"
+export { default as Solution } from "./solution/Solution"

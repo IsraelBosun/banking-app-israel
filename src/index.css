@@ -1,13 +1,53 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --color-bg: #E5E5E5;
+    --background-btn: linear-gradient(157.81deg, #DEF9FA -43.27%, #BEF3F5 -21.24%, #9DEDF0 12.19%, #7DE7EB 29.82%, #5CE1E6 51.94%, #33BBCF 90.29%);
+    --text-color : radial-gradient(64.18% 64.18% at 71.16% 35.69%, #DEF9FA 0.89%, #BEF3F5 17.23%, #9DEDF0 42.04%, #7DE7EB 55.12%, #5CE1E6 71.54%, #33BBCF 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    --card-bg: linear-gradient(144.39deg, #FFFFFF -278.56%, #6D6D6D -78.47%, #11101D 91.61%);
+    --icon-bg: rgba(9, 151, 124, 0.1);
+    --right-bg: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214D76 100%);
+    --middle-left-bg: linear-gradient(90deg, #F4C4F3 0%, #FC67FA 100%);
+    --bottom-right-bg: linear-gradient(90deg, #1A2980 0%, #26D0CE 100%);
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body{
+    font-family: "poppins" sans-serif;
+    background: var(--color-bg);
+    color: white;
+}
+
+
+h1{
+    font-weight: 600;
+    font-size: 48px;
+    color: #FFFFFF;
+}
+
+h2{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+h3{
+    font-weight: 400;
+    font-size: 16px;
 }

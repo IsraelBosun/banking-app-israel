@@ -36,6 +36,7 @@
     justify-content: space-around;
     gap: 1rem;
     padding: 0.7rem 0;
+    width:500px;
 }
 
 @media screen and (max-width:400px) {
@@ -46,6 +47,8 @@
     .numbers {
         width: 100%;
         font-size:30px;
+        flex-direction: column;
+        padding: 1rem;
     }
 
     .aboutus__p {

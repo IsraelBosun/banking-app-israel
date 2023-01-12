@@ -11,6 +11,28 @@
     flex-direction: column;
 }
 
+.gradient__text {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--percent-bg);
+    border-radius: 10px;
+    padding: 6px;
+}
+
+.gradient__text p {
+    margin-left: 19px;
+}
+
+.header__divide{
+    transform: rotate(45deg);
+    color: #31C179;
+    background: #393939;
+    font-size: 25px;
+    border-radius: 50%;
+    margin-left: 9px;
+}
+
 .generation__header-content h1 {
     font-weight: 600;
     font-size: 72px;
@@ -45,6 +67,7 @@
 
 @media screen and (max-width: 1280px) {
     .generation__header-content h1 {
+        flex-direction: row;
         font-weight: 600;
         font-size: 55px;
         line-height: 140%;
@@ -80,6 +103,10 @@
         display: flex;
         padding: 4rem 6rem;
     }
+    .gradient__text p {
+        font-size: 12px;
+    }
+
 }
 
 @media screen and (max-width: 450px) {

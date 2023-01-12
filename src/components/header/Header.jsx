@@ -11,7 +11,7 @@ const Header = () => {
     <div className='generation__header section'>
       <div className = "generation__header-content">
         <div className='gradient__text'>
-          <FiDivide />
+          <FiDivide className='header__divide'/>
           <p>20% DISCOUNT FOR 1 MONTH ACCOUNT</p>
         </div>
         <h1>The Next</h1>

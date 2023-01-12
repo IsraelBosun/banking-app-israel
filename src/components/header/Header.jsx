@@ -18,7 +18,7 @@ const Header = () => {
         <h1 className = "colorful">Generation</h1>
         <h1>Payment Method</h1>
         <p className='generation__para'>
-        Our team of experts uses a methodology to identify<br/> the credit cards most likely to fit your needs.<br/> 
+        Our team of experts uses a methodology to identify the credit cards most likely to fit your needs.
         We examine annual percentage rates, annual fees.
         </p>
       </div>

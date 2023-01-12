@@ -41,32 +41,21 @@ body{
     font-family: 'Poppins';
 }
 
-.container {
+.section {
+    margin-top: 2rem;
+}
+
+/* .container {
     width: var(--container-width-lg);
     margin: 0 auto;
 }
 
-.section {
-    margin-top: 8rem;
-}
 
-
-h1{
-    font-weight: 600;
-    font-size: 72px;
-    color: #FFFFFF;
-}
-
-h3{
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 170%;
-}
 
 h4{
     font-weight: 400;
-    font-size: 16px;
-}
+    font-size: 1rem;
+} */
 
 .text-color {
     color: rgba(255, 255, 255, 0.7);
@@ -76,27 +65,25 @@ h4{
     background: var(--icon-bg);
 }
 
-.special-text-color {
+/* .special-text-color {
     background: radial-gradient(64.18% 64.18% at 71.16% 35.69%, #DEF9FA 0.89%, #BEF3F5 17.23%, #9DEDF0 42.04%, #7DE7EB 55.12%, #5CE1E6 71.54%, #33BBCF 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
-    -webkit-background-clip: text;
+    /* -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-}
+} */ 
 
 /* ======================= MEDIA QUERIES (MEDIUM DEVICES) ===================== */
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
     .container {
         width: var(--container-width-md)
     }
 
-    .section {
-        margin-top: 6rem;
-    }
-}
+
+} */
 
 /* ======================= MEDIA QUERIES (SMALL DEVICES) ===================== */
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
     .container{
         width: var(--container-width-sm);
     }
-}
+} */

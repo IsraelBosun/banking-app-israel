@@ -9,6 +9,7 @@
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
+    position: relative;
 }
 
 .gradient__text {
@@ -21,7 +22,7 @@
 }
 
 .gradient__text p {
-    margin-left: 19px;
+    margin-left: 12px;
 }
 
 .header__divide{
@@ -63,6 +64,26 @@
     height: 100%;
 }
 
+.generation__get-started {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 28rem;
+    bottom: 27rem;
+}
+
+.generation__arrow {
+    transform: rotate(45deg);
+    position: relative;
+    left: 3rem;
+    bottom: 1rem;
+}
+
 
 
 @media screen and (max-width: 1280px) {
@@ -71,6 +92,10 @@
         font-weight: 600;
         font-size: 55px;
         line-height: 140%;
+    }
+
+    .generation__get-started {
+        display: none;
     }
 }
 

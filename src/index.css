@@ -46,6 +46,10 @@ body{
     margin-top: 2rem;
 }
 
+.section__padding{
+    padding: 4rem 6rem;
+}
+
 /* .container {
     width: var(--container-width-lg);
     margin: 0 auto;
@@ -64,6 +68,13 @@ h4{
 
 .icon-bg{
     background: var(--icon-bg);
+}
+
+@media screen and (max-width: 450px) {
+    .section__padding {
+        display: flex;
+        padding: 4rem 2rem;
+    }
 }
 
 /* .special-text-color {

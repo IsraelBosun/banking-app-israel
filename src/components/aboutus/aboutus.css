@@ -1,0 +1,53 @@
+.aboutus {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.aboutus__line {
+    background: white;
+    width: 1px;
+    height: 20px;
+    margin-left:10rem;
+}
+
+
+
+
+
+
+
+.aboutus__p {
+    font-weight: 400;
+    font-size: 20.4463px;
+    line-height: 130%;
+    background: var(--text-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.numbers {
+    font-weight: 600;
+    font-size: 40.8925px;
+    display: flex;
+    /* width: 100%; */
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+    padding: 1rem 0;
+}
+
+@media screen and (max-width:400px) {
+    .aboutus {
+        flex-direction: column;
+    }
+
+    .numbers {
+        width: 100%;
+    }
+
+    .aboutus__p {
+        font-size: 16px;
+    }
+}

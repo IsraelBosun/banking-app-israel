@@ -21,6 +21,10 @@ const Header = () => {
         Our team of experts uses a methodology to identify the credit cards most likely to fit your needs.
         We examine annual percentage rates, annual fees.
         </p>
+        <div className='generation__get-started'>
+          <AiOutlineArrowUp className='generation__arrow' />
+          <p>Get Started</p>
+      </div>
       </div>
       <div className='generation__header-image'>
         <img src= {robo} alt="robot" />

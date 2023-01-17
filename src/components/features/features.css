@@ -1,0 +1,28 @@
+.transaction__text button {
+    display: none;
+}
+
+.features__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+}
+
+.transaction__card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.transaction__card img {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width:1024px) {
+    .features__container {
+        flex-direction: column;
+        gap:2rem;
+    }
+}

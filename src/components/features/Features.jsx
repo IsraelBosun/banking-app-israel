@@ -3,6 +3,8 @@ import "./features.css"
 
 import trxcard from "../../assets/transactioncard.png"
 import Content from "../../oneliners/content/Content.jsx"
+import google from "../../assets/google.png"
+import apple from "../../assets/apple.png"
 
 
 const Features = () => {
@@ -14,6 +16,14 @@ const Features = () => {
         </div>
         <div className='transaction__text'>
           <Content main = "Easily control your billing & invoicing." sub = "Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio aenean neque. Fusce ipsum orci rhoncus aliporttitor integer platea placerat." btn = "Home" />
+          <div className='features__brands'>
+            <div className='features__brands-items'>
+              <img src={apple} alt="" />
+            </div>
+            <div className='features__brands-items'>
+              <img src={google} alt="" />
+            </div>
+          </div>
         </div>
       </div>
     </div>

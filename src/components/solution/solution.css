@@ -1,0 +1,29 @@
+.solutions {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10rem;
+}
+
+.solution-image {
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.solution-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.solution-text {
+    flex: 3;
+}
+
+@media screen and (max-width:1024px) {
+    .solutions {
+        flex-direction: column;
+        gap: 5rem;
+    }
+}

@@ -2,8 +2,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    row-gap: 4rem;
-    column-gap: 10rem;
+    row-gap: 3rem;
+    column-gap: 6rem;
     flex-wrap: wrap;
 }
 
@@ -13,7 +13,7 @@
 }
 
 .sponsors__icons img {
-    width: 100%;
+    width: 70%;
     height: 100%;
 }
 

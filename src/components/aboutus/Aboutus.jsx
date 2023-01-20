@@ -3,7 +3,7 @@ import "./aboutus.css"
 
 const Aboutus = () => {
   return (
-    <div className='aboutus section__padding'>
+    <div className='aboutus section__padding2'>
       <div className='numbers aboutus__thirtyeight'>
         <h4>3800+</h4>
         <p className='aboutus__p'>USER ACTIVE</p>

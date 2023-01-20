@@ -57,7 +57,7 @@ const Footer = () => {
         <div className='footer__line'/>
         <div className='footer__copyright'>
           <div>
-            Made By IsraelBosun with React <FaReact />
+            Made By IsraelBosun with React <FaReact className = "react-icon" />
           </div>
           <div className='footer__icons'>
             <a href=""><AiOutlineGithub /></a>

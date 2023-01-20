@@ -1,0 +1,45 @@
+.footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.footer__links {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.footer__links h5 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%; 
+}
+
+.footer__links ul, .footer__hoo-bottom p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer__hoo {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.footer__hoo-top h2 {
+    font-weight: 600;
+    font-size: 40.5763px;
+    line-height: 130%;
+}
+
+.footer__hoo-top span {
+    color: rgba(92, 225, 230, 1)
+}
+
+
+

@@ -1,10 +1,15 @@
 import React from 'react'
+import {FaReact} from "react-icons/fa"
+import {AiOutlineGithub} from "react-icons/ai"
+import {AiOutlineWhatsApp} from "react-icons/ai"
+import {AiFillLinkedin} from "react-icons/ai"
+import {AiFillTwitterCircle} from "react-icons/ai"
 import "./footer.css"
 
 const Footer = () => {
   return (
-    <div className='footer section__padding'>
-
+    <div className=' section__padding'>
+     <div className = "footer">   
       <div className='footer__hoo'>
         <div className = "footer__hoo-top">
           <div>
@@ -46,7 +51,22 @@ const Footer = () => {
           <li>Become a Partner</li>
         </ul>
       </div>
+      </div>
 
+      <div className='footer__ending'>
+        <div className='footer__line'/>
+        <div className='footer__copyright'>
+          <div>
+            Made By IsraelBosun with React <FaReact />
+          </div>
+          <div className='footer__icons'>
+            <a href=""><AiOutlineGithub /></a>
+            <a href=""><AiOutlineWhatsApp /></a>
+            <a href=""><AiFillLinkedin /></a>
+            <a href=""><AiFillTwitterCircle /></a>
+          </div>
+        </div>
+      </div>  
     </div>
   )
 }

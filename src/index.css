@@ -73,7 +73,7 @@ h4{
 
 @media screen and (max-width: 450px) {
     .section__padding {
-        display: flex;
+        /* display: flex; */
         padding: 4rem 2rem;
     }
 }

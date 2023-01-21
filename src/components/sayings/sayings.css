@@ -31,10 +31,10 @@
     top: 0px;
     z-index: 0;
     background: linear-gradient(90deg, #1A2980 0%, #26D0CE 100%);
-    background: #7aebfb;
-    filter: blur(180px);
+
+    filter: blur(120px);
     /* border-radius: 200px; */
-    /* transform: rotate(47.46deg); */
+    transform: rotate(47.46deg);
 }
 
 @media screen and (max-width:1200px){

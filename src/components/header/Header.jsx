@@ -8,8 +8,9 @@ import robo from "../../assets/robotcard.png"
 
 const Header = () => {
   return (
-    <div className='generation__header section'>
+    <div className='generation__header section__padding3'>
       <div className = "generation__header-content">
+        <div className = "generation__bg1"/>
         <div className='gradient__text'>
           <FiDivide className='header__divide'/>
           <p>20% DISCOUNT FOR 1 MONTH ACCOUNT</p>
@@ -27,6 +28,7 @@ const Header = () => {
       </div>
       </div>
       <div className='generation__header-image'>
+        <div className = "generation__image-bg1 generation__image-bg2 generation__image-bg3"/>
         <img src= {robo} alt="robot" />
       </div>
     </div>

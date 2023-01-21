@@ -25,7 +25,7 @@
 
 .testimonials__bg {
     position: absolute;
-    width: 200px;
+    width: 150px;
     height: 438px;
     left: 60%;
     top: 0px;
@@ -34,7 +34,7 @@
 
     filter: blur(120px);
     /* border-radius: 200px; */
-    transform: rotate(47.46deg);
+    /* transform: rotate(47.46deg); */
 }
 
 @media screen and (max-width:1200px){

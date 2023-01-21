@@ -1,6 +1,21 @@
 .generation__header {
     display: flex;
-    padding: 4rem 6rem;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    /* gap: 10rem; */
+    /* padding: 4rem 6rem; */
+}
+
+.generation__bg1 {
+    position: absolute;
+    width: 195px;
+    height: 329px;
+    left: 5%;
+    top: 0px;
+    z-index: 0;
+    background: #FFFFFF;
+    filter: blur(200px);
 }
 
 .generation__header-content {
@@ -24,6 +39,7 @@
 
 .gradient__text p {
     margin-left: 12px;
+    z-index: 1;
 }
 
 .header__divide{
@@ -39,6 +55,7 @@
     font-weight: 600;
     font-size: 72px;
     line-height: 140%;
+    z-index: 1;
 }
 
 .generation__header-content .colorful {
@@ -49,7 +66,7 @@
 }
 
 .generation__header-content .generation__para {
-    margin-top: 3rem;
+    margin-top: 2rem;
     max-width: 432px
 }
 
@@ -59,6 +76,7 @@
     justify-content: center;
     align-items: center;
     margin-right:3rem;
+    z-index: 1;
 }
 
 .generation__header-image img {
@@ -87,8 +105,64 @@
 }
 
 
+.generation__image-bg1 {
+    position: absolute;
+    width: 150.59px;
+    height: 150.14px;
+    left: 60%;
+    top: 0px;
+    z-index: 0;
+    background: linear-gradient(90deg, rgba(26, 41, 128, 0.5) 0%, rgba(38, 208, 206, 0.5) 100%);
+    filter: blur(325px);
+    border-radius: 200px;
+    transform: rotate(-67.37deg);
+}
 
-@media screen and (max-width: 1280px) {
+.generation__image-bg2 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 50%;
+    top: 25rem;
+    z-index: 0;
+    background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214D76 100%);
+    border: 1px solid #000000;
+    filter: blur(61px);
+}
+
+.generation__image-bg3 {
+    /* /* position: absolute;
+    width: 205px;
+    height: 271px;
+    left: 50%;
+    top: 0px;
+
+    background: rgba(255, 255, 255, 0.6); */
+    filter: blur(200px); 
+}
+
+ @media screen and (max-width: 1280px) {
+    .generation__header {
+        flex-direction: column;
+    }
+
+    .generation__get-started {
+        display: none;
+    }
+
+    .generation__header-content h1 {
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 140%;
+    }
+
+    .generation__header {
+        gap: 3rem;
+    }
+}
+
+
+/* @media screen and (max-width: 1280px) {
     .generation__header-content h1 {
         flex-direction: row;
         font-weight: 600;
@@ -145,7 +219,7 @@
     .generation__header-image {
         margin-right:3rem;
     }
-}
+} */
 
 
 

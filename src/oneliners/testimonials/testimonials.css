@@ -8,10 +8,12 @@
     flex: 1;
     background: linear-gradient(144.39deg, #FFFFFF -278.56%, #6D6D6D -78.47%, #11101D 91.61%);
     backdrop-filter: blur(px);
+    border-radius: 20px;
+    position: relative;
 
-
-border-radius: 20px;
 }
+
+
 
 .testimonials-image {
     display: flex;

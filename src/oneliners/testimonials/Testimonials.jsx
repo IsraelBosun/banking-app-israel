@@ -4,8 +4,9 @@ import "./testimonials.css"
 
 const Testimonials = ({text, firstname, subtitle, image}) => {
   return (
-    <div className='testimonials'>
-        <div className='testimonials-image'>
+    <div className=' testimonials'>
+          
+        <div className=' testimonials-image'>
             <img src={tick} alt="" />
         </div>
         <p>{text}</p>
@@ -16,6 +17,7 @@ const Testimonials = ({text, firstname, subtitle, image}) => {
                <p className='testimonials__p'>{subtitle}</p> 
             </div>
         </div>
+            
     </div>
   )
 }

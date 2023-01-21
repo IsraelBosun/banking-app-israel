@@ -33,6 +33,7 @@ const packageData = [
 const Sayings = () => {
   return (
     <div className = "sayings section__padding2">
+      <div className = "testimonials__bg"/>
       <div className = "sayings__upper">
         <h1>What people are saying about us</h1>
         <p>Everything you need to accept card payments and grow your business anywhere on the planet.</p>

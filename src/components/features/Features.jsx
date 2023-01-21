@@ -10,6 +10,7 @@ import apple from "../../assets/apple.png"
 const Features = () => {
   return (
     <div className='features section__padding2'>
+      <div className = "features__bg"/>
       <div className='features__container'>
         <div className='transaction__card'>
           <img src={trxcard} alt="bankcard" />
